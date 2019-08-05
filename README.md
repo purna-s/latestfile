@@ -3,7 +3,7 @@ title: latestfile
 ---
 
 # latestfile
-This activity allows to list details of all the files in a folder
+This activity allows to list details of all the latest file in a folder
 
 ## Installation
 ### Flogo CLI
