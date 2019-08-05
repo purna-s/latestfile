@@ -1,0 +1,40 @@
+{
+  "name": "latestfile",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/purna-s/latestfile",  
+  "title": "latestfiletest",
+  "description": "Lists all the files in the directory",
+  "author": "Purna S <purna.sadanala@prowesssoft.com>",
+
+  "inputs":[
+    
+	{
+      "name": "Path",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "FileName",
+      "type": "string"
+    },
+	{
+      "name": "Directory",
+      "type": "string"
+    },
+	{
+      "name": "LastModTime",
+      "type": "string"
+    },
+	{
+      "name": "MinutesDiff",
+      "type": "int"
+    },
+		{
+      "name": "Size",
+      "type": "string"
+    }
+  ]
+}
