@@ -59,12 +59,12 @@ func (a *latestfile) Eval(ctx activity.Context) (done bool, err error) {
 		ctx.SetOutput("FileName", names)
 		ctx.SetOutput("Directory", dir)
 		ctx.SetOutput("LastModTime", modTime)
-		ctx.SetOutput("MinutesDiff", mins)
+		ctx.SetOutput("MinutesDiff", mins/1000)
 		ctx.SetOutput("Size", size)
 		fmt.Println("FileName", names)
 		fmt.Println("Directory", dir)
 		fmt.Println("LastModTime", modTime)
-		fmt.Println("MinutesDiff", mins)
+		fmt.Println("MinutesDiff", mins/1000)
 		fmt.Println("Size", size)
     }
 
